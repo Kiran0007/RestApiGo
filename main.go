@@ -45,7 +45,7 @@ func main() {
 	router.POST("/create_post",ErrorHandler(createPostHandler))
 	router.GET("/posts",ErrorHandler(getPostsHandler))
 
-  router.GET("/loaderio-fd91954a77340e382e3b566eb7018c9f.txt", ErrorHandler(LoaderIoFileHandler))
+  router.GET("/loaderio-f3729088beb005536a895595fa826a74.txt", ErrorHandler(LoaderIoFileHandler))
 
 	http.ListenAndServe(":8080", router)
 
